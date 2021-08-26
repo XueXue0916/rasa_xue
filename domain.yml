@@ -1,0 +1,50 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+#  - bot_challenge
+  - whoareyou
+  - question
+
+responses:
+  utter_greet:
+  - text: "嘿，对面的小哥哥小姐姐你们好呀！"
+
+  utter_cheer_up:
+  - text: "我给你讲个笑话吧"
+#    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "我可以帮助你嘛？"
+
+  utter_happy:
+  - text: "开开心心每一天呀"
+  - text: "积极向上，满满的正能量！ 冲鸭！"
+
+  utter_goodbye:
+  - text: "呜呜呜，真的要离开吗~舍不得你呀"
+  - text: "拜拜，期待主人下次找我玩呀"
+
+#  utter_iamabot:
+#  - text: "I am a bot, powered by Rasa."
+
+  utter_whoareyou:
+  - text: "我当然是小可爱啦，你的专属聊天机器人"
+
+  utter_askmood:
+  - text: "今天心情怎么样？"
+
+  utter_happychat:
+  - text: "把你推进花园就找不到你了，知道为什么吗?"
+
+  utter_answer:
+  - text: "因为你像花儿一样美丽"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

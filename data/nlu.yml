@@ -1,0 +1,97 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - 你好
+    - 你好呀
+    - 早上好
+    - 晚上好
+    - 哈喽
+    - 嗨
+    - 最近好吗
+    - 好久不见呀
+    - 哇偶，很高兴遇见你
+    - hi
+    - hello
+    - 哈喽哈喽
+    - 喂喂
+
+- intent: goodbye
+  examples: |
+    - 拜
+    - 好了，先这样
+    - 回见
+    - 下次再聊
+    - 有空再聊
+    - 再见啦
+    - 期待下次见面
+    - 明天见
+    - 886
+    - 再见
+    - 拜拜
+    - bye
+    - 撒由那拉
+
+- intent: affirm
+  examples: |
+    - yep
+    - yes
+    - 是的
+    - 当然
+    - 听起来不错哦
+    - 你说的对
+    - 我也这么觉得
+    - 哈哈哈哈完美
+    - 好
+    - 可以
+    - 好的
+    - 可以呀
+
+- intent: deny
+  examples: |
+    - no
+    - 不
+    - 不要这样
+    - 我不知道
+    - 我猜不出来
+    - 就不
+    - 没门
+    - 我不喜欢这样
+    - 下次别这样了
+
+- intent: mood_great
+  examples: |
+    - 开心
+    - 不错
+    - 非常好
+    - 完美
+    - 超级棒
+
+- intent: mood_unhappy
+  examples: |
+    - 失望
+    - 压力比较大
+    - 感觉不舒服
+    - 难过
+    - 非常难过
+    - 悲伤
+    - 有点悲伤
+    - 不是很高兴
+    - 诶心情烦躁
+    - 心情低落
+    - 不开心
+
+- intent: whoareyou
+  examples: |
+    - 你是谁
+    - 你是机器人吗
+    - 可以告诉我你的名字吗
+    - 谁在和我说话
+
+- intent: question
+  examples: |
+    - 为什么
+    - 什么意思
+    - why
+
